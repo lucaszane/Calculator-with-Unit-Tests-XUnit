@@ -1,0 +1,12 @@
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/bin/Debug/net5.0/Calculator.deps.json
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/bin/Debug/net5.0/Calculator.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/bin/Debug/net5.0/ref/Calculator.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/bin/Debug/net5.0/Calculator.pdb
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.csproj.AssemblyReference.cache
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfoInputs.cache
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfo.cs
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/ref/Calculator.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Calculator/obj/Debug/net5.0/Calculator.pdb

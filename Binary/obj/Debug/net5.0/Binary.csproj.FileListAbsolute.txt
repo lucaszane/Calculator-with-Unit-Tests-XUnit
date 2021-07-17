@@ -1,0 +1,12 @@
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.csproj.AssemblyReference.cache
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.AssemblyInfoInputs.cache
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.AssemblyInfo.cs
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.csproj.CoreCompileInputs.cache
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/bin/Debug/net5.0/Binary.deps.json
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/bin/Debug/net5.0/Binary.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/bin/Debug/net5.0/ref/Binary.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/bin/Debug/net5.0/Binary.pdb
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/ref/Binary.dll
+/Users/lucaszane/Projects/CalculatorAndUnitTestingWithXUnit/Binary/obj/Debug/net5.0/Binary.pdb
