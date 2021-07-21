@@ -25,28 +25,51 @@ namespace CalculatorTests
         public void TestBinary()
         {
             var binary = new BinaryNumber("101");
-            Assert.Equal(5, binary.binaryValue);
+            Assert.Equal(5, binary.integerValue);
         }
         
         [Fact]
         public void TestBinary2()
         {
             var binary = new BinaryNumber("10");
-            Assert.Equal(2, binary.binaryValue);
+            Assert.Equal(2, binary.integerValue);
         }
 
         [Fact]
         public void TestBinary3()
         {
             var binary = new BinaryNumber("1");
-            Assert.Equal(1, binary.binaryValue);
+            Assert.Equal(1, binary.integerValue);
         }
 
         [Fact]
         public void TestBinary4()
         {
             var binary = new BinaryNumber("0");
-            Assert.Equal(0, binary.binaryValue);
+            Assert.Equal(0, binary.integerValue);
+        }
+
+        [Fact]
+        public void TestBinary5()
+        {
+            var binary = new BinaryNumber("10");
+            Assert.Equal("10", binary.binaryValue);
+        }
+
+        [Fact]
+        public void TestBinary6()
+        {
+            var binary = new BinaryNumber("10");
+            binary.integerValue = 3;
+            Assert.Equal("11", binary.binaryValue);
+        }
+
+        [Fact]
+        public void TestBinary7()
+        {
+            var binary = new BinaryNumber("10");
+            binary.integerValue = 3;
+            Assert.Equal(3, binary.integerValue);
         }
     }
 }

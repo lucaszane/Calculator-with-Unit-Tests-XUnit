@@ -5,9 +5,22 @@ namespace Binary
 {
     public class BinaryNumber
     {
-        double decimalRepresentation;
+        private int decimalRepresentation;
 
-        public double binaryValue
+        public string binaryValue
+        {
+            get
+            {
+                return ConvertDecimalToinaryString(decimalRepresentation);
+            }
+            set
+            {
+                this.decimalRepresentation = ConvertBinaryStringToDecimal(value);
+            }
+        }
+
+        
+        public int integerValue
         {
             get
             {
@@ -24,18 +37,40 @@ namespace Binary
             this.decimalRepresentation = this.ConvertBinaryStringToDecimal(binary);
         }
 
-        private double ConvertBinaryStringToDecimal(string binary)
+        public BinaryNumber(int value)
         {
-            var b = 0d;
+            this.decimalRepresentation = value;
+        }
+
+        private int ConvertBinaryStringToDecimal(string binary)
+        {
+            var b = 0;
             var index = binary.Count() - 1;
             foreach (var c in binary)
             {
                 var number = Int32.Parse(c.ToString());
-                b += Convert.ToDouble(number) * Math.Pow(2, Convert.ToDouble(index));
+                b += number * (int)Math.Pow(2, index);
                 index--;
             }
 
             return b;
+        }
+
+        private string ConvertDecimalToinaryString(int value)
+        {
+            var quo = value / 2;
+            var rem = value % 2;
+            var s = rem.ToString();
+
+            while (quo != 0)
+            {
+                rem = quo % 2;
+                quo = quo / 2;
+
+                s = rem.ToString() + s;
+            }
+
+            return s;
         }
     }
 }
